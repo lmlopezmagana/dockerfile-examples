@@ -1,4 +1,5 @@
 FROM debian
+LABEL mantainer="Luismi" company="Salesianos Triana" email="luismi@luismi.com"
 
 WORKDIR /app
 RUN dpkg -l > lista1.txt
